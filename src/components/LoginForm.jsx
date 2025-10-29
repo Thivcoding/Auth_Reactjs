@@ -29,7 +29,7 @@ const LoginForm = () => {
 
   return (
     <div>
-        <h1>Form Login</h1>
+        <h1>Form Logins</h1>
         <form action="" onSubmit={loginSumbit}>
             <input type="email" onChange={(e)=>setEmail(e.target.value)} /><br />
             <input type="password" onChange={(e)=>setPass(e.target.value)} /><br />
