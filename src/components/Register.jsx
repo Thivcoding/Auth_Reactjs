@@ -21,7 +21,7 @@ const Register = () => {
     }
   return (
     <div>
-         <h1>Form Register</h1>
+         <h1>Form Registers</h1>
         <form action="" onSubmit={handleSubmit}>
             <input type="text" onChange={(e)=>setName(e.target.value)} /><br />
             <input type="email" onChange={(e)=>setEmail(e.target.value)} /><br />
